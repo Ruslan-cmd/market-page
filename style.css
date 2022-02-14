@@ -2,15 +2,15 @@ body{
 	background-color:#F5FFFA;
 }
 .main-block{
-background-color:white;
-width:1200px;
-height:auto;
-border:2px solid #C0C0C0;
-display: flex;
-flex-direction: row;
-justify-content:space-between;
-padding:30px;
-font-family:Gill Sans, sans-serif;
+	background-color:white;
+	width:1200px;
+	height:auto;
+	border:2px solid #C0C0C0;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	padding:30px;
+	font-family:Gill Sans, sans-serif;
 }
 .photo{
 	height:100%;
@@ -21,10 +21,10 @@ font-family:Gill Sans, sans-serif;
 	width:45%;
 }
 .navigation-menu{
-display: flex;
-flex-direction: row;
-justify-content:space-between;
-margin-top:-24px;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	margin-top:-24px;
 
 }
 .clothing-name h1{
@@ -42,11 +42,11 @@ margin-top:-24px;
 	color:#00BFFF;
 }
 .price{
-font-size:20px;
-display: flex;
-flex-direction: row;
-justify-content:space-between;
-margin-top:50px;
+	font-size:20px;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	margin-top:50px;
 
 }
 .old-price{
@@ -71,15 +71,15 @@ margin-top:50px;
 	background-color:#F5F5F5;
 }
 .availabile{
-position:relative;
+	position:relative;
 }
 .availabile a{
-text-decoration:none;
-color:#00BFFF;	
+	text-decoration:none;
+	color:#00BFFF;	
 }
 .availabile a:hover{
-text-decoration:none;
-color:#00BFFF;	
+	text-decoration:none;
+	color:#00BFFF;	
 }
 .delivery{
 	margin-top:-10px;
@@ -105,10 +105,10 @@ color:#00BFFF;
 	margin-left:-190px;
 }
 .button{
-margin-top:10px;
-display: flex;
-flex-direction: row;
-justify-content:space-between;
+	margin-top:10px;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
 
 }
 .market{
@@ -139,11 +139,11 @@ justify-content:space-between;
 	opacity:0.8;
 }
 .social-networks{
-margin-top:50px;
-text-transform:uppercase;
-display: flex;
-flex-direction: row;
-justify-content:space-between;
+	margin-top:50px;
+	text-transform:uppercase;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
 	
 }
 .vk{
@@ -191,27 +191,27 @@ justify-content:space-between;
 }
 .dialog::before{
 	position:absolute;
-content: "";
-width: 0;
-height: 0;
-border-style: solid;
-border-width: 5px 10px 5px 0;
-border-color: transparent #DCDCDC transparent transparent;
-margin-right:42px;
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 5px 10px 5px 0;
+	border-color: transparent #DCDCDC transparent transparent;
+	margin-right:42px;
 }
 .photo-slide{
-width:55%;
-display:flex;
-flex-direction: row;
-justify-content:space-between;
-margin-right:20px;
+	width:55%;
+	display:flex;
+	flex-direction: row;
+	justify-content:space-between;
+	margin-right:20px;
 }
 .left-photos{
-display:flex;
-flex-direction:column;
-justify-content:space-between;
-height:100%;
-width:40%;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	height:100%;
+	width:40%;
 
 }
 .right-photo{
@@ -251,13 +251,14 @@ width:40%;
 }
 
 .counter{
-display:flex;
-flex-direction:row;
-justify-content:space-between;
-margin-top:30px;
-border:1px solid #808080;
-width:20%;
-height:30px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin-top:30px;
+	border:1px solid #808080;
+	width:20%;
+	height:30px;
+	font-size:20px;
 }
 .counter a{
 	text-decoration:none;
@@ -265,17 +266,18 @@ height:30px;
 	align-items:center;
 	justify-content:center;
 	width:33%;
-	border:1px solid #808080;
 	background-color:#F5F5F5;
 }
 .counter a:visited{
 	color:black;
 }
-.counter input{
-	display:flex;
-	align-items:center;
-	justify-content:center;
+.number-text{
 	width:33%;
-	border:1px solid #808080;
+	border:0.5px solid #808080;
 	background-color:#F5F5F5;
+	font-size:20px;
+	text-align:center;
+}
+.number-minus{
+	
 }
