@@ -9,33 +9,33 @@
 $(document).ready(function(){
 
 $('body').on('click', '#first-photo', function(){
-photo = $("#right-photo");
-$("#first-photo").clone().replaceAll(photo).css({
+$("#first-photo").clone().replaceAll($("#right-photo")).css({
 	'height':'100%',
 	'width':'60%',
 	'background-size':'120%'
 	
+}).attr({
+  id: "right-photo",
 });
-return false;
 });
 $('body').on('click', '#second-photo', function(){
-photo = $("#right-photo");
-$("#second-photo").clone().replaceAll(photo).css({
+$("#second-photo").clone().replaceAll($("#right-photo")).css({
 	'height':'100%',
 	'width':'60%',
 	'background-size':'120%'
+}).attr({
+  id: "right-photo",
 });
-return false;
 });
 $('body').on('click', '#third-photo', function(){
-photo = $("#right-photo");
-$("#third-photo").clone().replaceAll(photo).css({
+$("#third-photo").clone().replaceAll($("#right-photo")).css({
 	'height':'100%',
 	'width':'60%',
 	'background-size':'120'
+}).attr({
+  id: "right-photo",
 });
 });
- return false;
 });
 </script type='text/javascript'>
 <script>
